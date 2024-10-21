@@ -1,0 +1,21 @@
+name: Spell Check
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  spell-check:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Run Spell Checker
+      uses: rojopolis/spellcheck-github-actions@0.16.0
+
+    - name: Run Spell Check on markdown files
+      run: spellcheck "**/*.md"

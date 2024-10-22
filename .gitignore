@@ -1,0 +1,204 @@
+# General ignores for OS and development tools
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.Trash-*
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+.pnpm-store/
+
+# IDEs and Editors
+
+# VSCode
+.vscode/
+.vscode-test/
+
+# Sublime Text
+*.sublime-workspace
+
+# JetBrains (IntelliJ, PyCharm, WebStorm)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Visual Studio
+.vs/
+*.csproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Eclipse
+*.pydevproject
+.project
+.metadata/
+bin/
+tmp/
+
+# Android Studio
+.gradle/
+local.properties
+.idea/
+.DS_Store
+/build/
+captures/
+
+# Xcode
+*.xcworkspace
+xcuserdata/
+*.xcuserstate
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+venv.bak/
+
+# Pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# Django
+*.sqlite3
+/static/
+*.pyc
+
+# Ruby
+*.gem
+*.rbc
+.rspec
+Gemfile.lock
+vendor/bundle/
+.rvm/
+.rbenv/
+.ruby-version
+.ruby-gemset
+
+# Go
+bin/
+vendor/
+*.exe
+*.test
+*.out
+
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# PHP
+vendor/
+composer.lock
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.class
+*.iml
+*.ipr
+.idea/
+target/
+*.log
+
+# C/C++
+*.obj
+*.o
+*.a
+*.lib
+*.so
+*.exe
+*.dll
+.vscode/
+.clangd/
+.ccls-cache/
+
+# Archives
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# System files
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+*.bak
+
+# Ignore build artifacts and intermediate files.
+*.class
+*.war
+*.ear
+*.jar
+*.dll
+*.o
+*.so
+*.exe
+*.out
+*.pyc
+*.pyo
+
+# Environment variables and credentials
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Temporary files and backups
+*.tmp
+*.swp
+*.swo
+*~
+*.bak
+*.old
+*.orig
+*.save
+*.rej
+# Ignore coverage reports
+coverage/
+.nyc_output/
+*.lcov

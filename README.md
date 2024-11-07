@@ -25,10 +25,9 @@ This repository exists to:
 
 ## Inspiration
 
-diff Code Chronicle is inspired by the idea of combining structured progress
-tracking with personal reflection. As an open-source developer, this journal
-helps me stay accountable while allowing me to look back and learn from my
-journey.
+Code Chronicle is inspired by the idea of combining structured progress tracking
+with personal reflection. As an open-source developer, this journal helps me
+stay accountable while allowing me to look back and learn from my journey.
 
 ---
 

@@ -17,11 +17,11 @@ This repository exists to:
 
 ## Structure
 
-- The repository is divided into two types of logs: **Daily** & **Monthly**. -
+- The repository is divided into two types of logs: **Daily** & **Weekly**. -
   **Daily Logs** contain a brief description of achievements and challenges
-  faced on that day. - **Monthly Summaries** provide a detailed overview of the
+  faced on that day. - **Weekly Summaries** provide a detailed overview of the
   problems solved, lessons learned, and development progress over the course of
-  the month.
+  the week.
 
 ## Inspiration
 
